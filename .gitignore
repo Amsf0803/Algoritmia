@@ -1,2 +1,12 @@
-.vscode
-.
+
+# 1. Ignorar absolutamente todo
+*
+
+# 2. Excluir de la regla anterior (NO ignorar) carpetas y archivos con extensiones específicas
+!*/
+!*.cpp
+!*.h
+!*.md
+!.gitignore
+
+
